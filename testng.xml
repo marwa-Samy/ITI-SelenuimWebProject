@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Mostafa/IdeaProjects/projectweb">
+        <classes>
+            <class name="com.Luma.project.testCases.AASignUpTest">
+                <methods>
+                    <include name="ShouldBeAbleToSignUpWithEmailAndPassWord"/>
+                </methods>
+            </class>
+            <class name="com.Luma.project.testCases.LoginTest">
+                <methods>
+                    <include name="ShouldBeAbleToLoginWithEmailAndPassWord"/>
+                </methods>
+            </class>
+            <class name="com.Luma.project.testCases.SearchTest">
+                <methods>
+                    <include name="ShouldBeAbleToUseTheSearchPar"/>
+                </methods>
+            </class>
+            <class name="com.Luma.project.testCases.ProductColorTest">
+                <methods>
+                    <include name="ShouldBeAbleToChooseItemColor"/>
+                </methods>
+            </class>
+            <class name="com.Luma.project.testCases.ProductQuantityTest">
+                <methods>
+                    <include name="ShouldBeAbleToChooseItemQuantity"/>
+                </methods>
+            </class>
+            <class name="com.Luma.project.testCases.ProductSizeTest">
+                <methods>
+                    <include name="ShouldBeAbleToChooseItemSize"/>
+                </methods>
+            </class>
+            <class name="com.Luma.project.testCases.AddCartTest">
+                <methods>
+                    <include name="ShouldBeAbleToAddToCart"/>
+                </methods>
+            </class>
+            <class name="com.Luma.project.testCases.CheckOutTest">
+                <methods>
+                    <include name="ShouldBeAbleToCheckOut"/>
+                </methods>
+            </class>
+
+            <class name="com.Luma.project.testCases.PurchaseTest">
+                <methods>
+                    <include name="ShouldBeAbleToPurchase"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
